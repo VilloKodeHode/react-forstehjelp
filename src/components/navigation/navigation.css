@@ -1,0 +1,18 @@
+nav {
+    background-color: grey;
+}
+
+nav p {
+    color: blueviolet;
+
+}
+
+nav a {}
+
+footer {
+    background-color: rgb(37, 37, 37);
+}
+
+.text-small {
+    font-size: 12px;
+}
