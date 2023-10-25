@@ -9,6 +9,7 @@ function App() {
   const [theme, setTheme] = useState("light")
   const navText = 'This text is from app.jsx!'
 
+
   return (
     <>
       <NavBar theme={theme} setTheme={setTheme} />

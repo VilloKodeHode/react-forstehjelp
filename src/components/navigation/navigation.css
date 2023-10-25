@@ -7,7 +7,17 @@ nav p {
 
 }
 
-nav a {}
+nav ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+nav a.nav-item {
+    background-color: black;
+    border-radius: 999px;
+    padding: 4px 16px;
+}
 
 footer {
     background-color: rgb(37, 37, 37);
