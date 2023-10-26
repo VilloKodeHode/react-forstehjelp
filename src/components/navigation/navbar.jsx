@@ -15,10 +15,10 @@ export const NavBar = () => {
                 {visible && <h2>I am visible!</h2>}
             </div>
             <ul>
-                <NavItem name="link 1" href="https://www.youtube.com/watch?v=jfKfPfyJRdk" />
-                <NavItem name="link 2" />
-                <NavItem name="link 3" />
-                <NavItem name="link 4" />
+                <NavItem name="Home" href="/" />
+                <NavItem name="Projects" href="/projects" />
+                <NavItem name="Contact" href="/contact" />
+                <NavItem name="About" href="/about" />
             </ul>
         </nav>
     )
@@ -26,7 +26,7 @@ export const NavBar = () => {
 
 const NavItem = ({ name, href }) => {
     return (
-        <a className="nav-item" href={href} target="_blank" rel="noreferrer">
+        <a className="nav-item" href={href}>
             <li>{name}</li>
         </a>
     )

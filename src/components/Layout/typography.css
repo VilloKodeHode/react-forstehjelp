@@ -1,0 +1,11 @@
+p.responsive {
+    font-size: 30px;
+    color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    p.responsive {
+        font-size: 12px;
+        color: red;
+    }
+}
